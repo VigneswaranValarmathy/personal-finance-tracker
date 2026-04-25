@@ -1,0 +1,204 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f2f4f8;
+    margin: 0;
+}
+
+.center-page{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.login-container{
+    background: white;
+    padding: 30px;
+    width:300px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);;
+}
+h2{
+    text-align: center;
+}
+
+.input-group{
+    margin-bottom: 15px;
+}
+
+input{
+     width:100%;
+    padding:8px;
+    margin-top:5px;
+}
+
+
+table button {
+    width: auto;
+    padding: 5px 10px;
+}
+
+button{
+    width:100%;
+    padding:10px;
+    background-color:#4CAF50;
+    border:none;
+    color:white;
+    cursor:pointer;
+}
+
+button:hover{
+    background-color:#45a049;
+}
+
+p{
+    text-align:center;
+    margin-top:15px;
+}
+
+.dashboard-container{
+    width:80%;
+    margin:auto;
+    text-align:center;
+}
+
+.summary{
+    display:flex;
+    justify-content:space-around;
+    margin-top:40px;
+}
+
+.card{
+    background:white;
+    padding:20px;
+    width:200px;
+    border-radius:8px;
+    box-shadow:0 0 10px rgba(0,0,0,0.1);
+}
+
+#expenseChart{
+width:300px !important;
+height:300px !important;
+margin:auto;
+}
+
+table{
+width:80%;
+margin:30px auto;
+border-collapse:collapse;
+}
+
+th, td{
+padding:10px;
+text-align:center;
+}
+
+th{
+background:#4CAF50;
+color:white;
+}
+
+tr:nth-child(even){
+background:#f2f2f2;
+}
+
+.budget-box{
+width:300px;
+margin:20px auto;
+text-align:center;
+}
+
+.budget-box input{
+width:80%;
+padding:8px;
+margin:10px 0;
+}
+
+#budgetAlert{
+margin-top:10px;
+font-weight:bold;
+color:red;
+}
+
+.nav{
+    width: 100%;
+    background-color: #2e7d32;
+    padding: 15px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+/* Left title */
+.nav-left h2{
+    color: white;
+    margin: 0;
+}
+
+/* Right section */
+.nav-right{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+/* Links */
+.nav-right a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+/* Logout button */
+.nav-right button{
+    padding: 6px 12px;
+    background-color: #c62828;
+    border: none;
+    color: white;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.nav-right button:hover{
+    background-color: #b71c1c;
+}   
+
+.form-box{
+    background: white;
+    padding: 20px;
+    width: 300px;
+    margin: 30px auto;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.profile-container{
+position:relative;
+}
+
+.profile-icon {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.profile-menu{
+position:absolute;
+top:45px;
+right:0;
+background:white;
+border: 1px solid #ccc;
+padding: 10px;
+display: none;
+width: 150px;
+border-radius: 6px;
+box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.profile-menu button {
+    width: 100%;
+    margin-top: 10px;
+    background-color: #c62828;
+}
