@@ -1,14 +1,18 @@
 # Compiled files
 /build/
 *.class
+/WebContent/WEB-INF/classes/
 
-# IDE files
-/.settings/
-/.project
-/.classpath
+# Logs
+*.log
+
+# IDE files (Eclipse)
+.settings/
+.project
+.classpath
 
 # Node (if used)
-/node_modules/
+node_modules/
 
 # OS files
 .DS_Store
